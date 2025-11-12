@@ -4,7 +4,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputMe
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # Bot tokens - replace with your actual tokens
-MAIN_BOT_TOKEN = os.getenv('MAIN_BOT_TOKEN', '8394979757:AAFeQw7sLYF4wUvjjwzB_6taQ39Ube4jSOY')
+MAIN_BOT_TOKEN = os.getenv('MAIN_BOT_TOKEN')
 
 # Child bot usernames (without @)
 SOIL_DETECTION_BOT = os.getenv('SOIL_BOT_USERNAME', 'detect_soil_bot')

@@ -1,41 +1,47 @@
-# Telegram Bot Hub
+# 🤖 Anachak Kasekor Chatbot
 
-A main Telegram bot that acts as a hub to redirect users to specialized child bots.
+### 🌾 Overview
 
-## Setup
+**Anachak Kasekor Chatbot** is an AI-powered Telegram assistant developed by the **Anachak Cyb3r Team** to support and empower farmers, especially in Cambodia.  
 
-1. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+This intelligent chatbot helps farmers grow their crops more efficiently by providing accurate agricultural information, smart analysis, and real-time support.  
 
-2. **Create your bots on Telegram:**
-   - Open Telegram and search for @BotFather
-   - Create your main bot: `/newbot`
-   - Create child bots (Soil Detection, Market, etc.)
-   - Save all bot tokens
+It's designed to solve everyday farming challenges and improve productivity through technology.
 
-3. **Configure environment variables:**
-   - Copy `.env.example` to `.env`
-   - Add your main bot token
-   - Add your child bot usernames (without @)
+---
 
-4. **Run the bot:**
-   ```bash
-   python main_bot.py
-   ```
+### 🚀 Purpose
 
-## How It Works
+To create an AI chatbot that helps Cambodian farmers **grow their crops**, **solve agricultural problems**, and **make smarter farming decisions** using modern technology.
 
-- Users start the main bot with `/start`
-- They see a menu with buttons for different services
-- Clicking a button redirects them to the specialized child bot
-- "More Options" shows additional bots
+---
 
-## Customization
+### 🌟 Key Features
 
-Edit `main_bot.py` to:
-- Add more child bots
-- Change button text and emojis
-- Modify welcome messages
-- Add more menu levels
+- 🧪 Detects **soil types** and suggests suitable crops.  
+- 🌿 Identifies **rice diseases** and recommends treatments.  
+- 🌾 Detects **rice seed diseases** for early prevention.  
+- 🛒 Provides a **marketplace** for farmers to sell and promote their products.  
+- 💬 Offers an **AI chatbot** that answers everything related to agriculture.  
+- 🌤️ Includes **weather forecasting** to help farmers plan ahead.
+
+---
+
+### 🧠 Our Mission
+
+To make farming **smarter, easier, and more sustainable** by combining **AI and agriculture** — building a better future for Cambodian farmers.
+
+---
+
+### 👨‍💻 Contributors
+
+- **Pring Rady**  
+- **Morn Chanthoung**  
+- **Mi Lyheng**
+
+---
+
+### 📜 License
+
+This project is licensed under **Anachak Cyb3r**.  
+All rights reserved © 2025.
