@@ -1,9 +1,0 @@
-run = "python main_bot_replit.py"
-language = "python3"
-
-[nix]
-channel = "stable-22_11"
-
-[deployment]
-run = ["python", "main_bot_replit.py"]
-deploymentTarget = "cloudrun"
