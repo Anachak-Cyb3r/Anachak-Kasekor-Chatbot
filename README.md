@@ -27,6 +27,24 @@ To create an AI chatbot that helps Cambodian farmers **grow their crops**, **sol
 
 ---
 
+### 🚀 Setup
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Configure environment variables:**
+   - Copy `.env.example` to `.env`
+   - Add your main bot token
+
+3. **Run the bot:**
+   ```bash
+   python main_bot.py
+   ```
+
+---
+
 ### 🧠 Our Mission
 
 To make farming **smarter, easier, and more sustainable** by combining **AI and agriculture** — building a better future for Cambodian farmers.
