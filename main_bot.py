@@ -1,7 +1,11 @@
 import os
 from datetime import datetime
+from dotenv import load_dotenv
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Bot tokens - replace with your actual tokens
 MAIN_BOT_TOKEN = os.getenv('MAIN_BOT_TOKEN')
