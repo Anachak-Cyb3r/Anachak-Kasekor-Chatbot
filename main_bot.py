@@ -60,7 +60,7 @@ async def show_main_menu(query, language, user_name="", is_first_time=False):
         keyboard = [
             [InlineKeyboardButton("🌱 វិភាគប្រភេទដី", url=f"https://t.me/{SOIL_DETECTION_BOT}"),
              InlineKeyboardButton("🌾 វិភាគគ្រាប់ស្រូវ", url=f"https://t.me/{RICE_SEED_BOT}")],
-            [InlineKeyboardButton("🦠 វិភាគជំងឺស្រូវ", url=f"https://t.me/{RICE_DISEASE_BOT}"),
+            [InlineKeyboardButton("🦠 វិភាគជំងឺស្លឹកស្រូវ", url=f"https://t.me/{RICE_DISEASE_BOT}"),
              InlineKeyboardButton("🌤️ ព្យាករណ៍អាកាសធាតុ", url=f"https://t.me/{WEATHER_BOT}")],
             [InlineKeyboardButton("🛒 ទីផ្សារ", url=f"https://t.me/{MARKET_BOT}"),
              InlineKeyboardButton("💬 ទីប្រឹក្សាកសិកម្ម", url=f"https://t.me/{CHATBOT}")],
@@ -78,7 +78,7 @@ async def show_main_menu(query, language, user_name="", is_first_time=False):
         keyboard = [
             [InlineKeyboardButton("🌱 Soil Type Detection", url=f"https://t.me/{SOIL_DETECTION_BOT}"),
              InlineKeyboardButton("🌾 Rice Seed Detection", url=f"https://t.me/{RICE_SEED_BOT}")],
-            [InlineKeyboardButton("🦠 Rice Disease Detection", url=f"https://t.me/{RICE_DISEASE_BOT}"),
+            [InlineKeyboardButton("🦠 Rice Leaf Disease Detection", url=f"https://t.me/{RICE_DISEASE_BOT}"),
              InlineKeyboardButton("🌤️ Weather Forecasting", url=f"https://t.me/{WEATHER_BOT}")],
             [InlineKeyboardButton("🛒 Marketplace", url=f"https://t.me/{MARKET_BOT}"),
              InlineKeyboardButton("💬 Chat Bot", url=f"https://t.me/{CHATBOT}")],
